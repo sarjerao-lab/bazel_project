@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-<testsuite name="test\test_main.exe" tests="1" failures="0" errors="0">
-<testcase name="test\test_main.exe" status="run" duration="8" time="8"></testcase>
-<system-out><![CDATA[Executing tests from //test:test_main
------------------------------------------------------------------------------
-]]></system-out>
-</testsuite>
-</testsuites>
