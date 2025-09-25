@@ -1,0 +1,14 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: bazelbuild/bazel:latest
+    steps:
+      - checkout
+      - run: bazel build //...
+      - run: bazel test //...
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      - build

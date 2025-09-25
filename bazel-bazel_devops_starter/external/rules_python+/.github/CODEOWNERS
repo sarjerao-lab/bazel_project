@@ -1,0 +1,11 @@
+# NB: Last matching rule takes precedence in CODEOWNERS.
+
+* @rickeylev @aignas
+
+# Directory containing the Gazelle extension and Go code.
+/gazelle/ @f0rmiga
+/examples/build_file_generation/ @f0rmiga
+
+# PyPI integration related code
+/python/private/pypi/ @aignas @groodt
+/tests/pypi/ @aignas @groodt
